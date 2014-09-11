@@ -24,7 +24,7 @@ Use APLUrlTextView like this:
 	
 	// Implement the delegate method extending the UITextViewDelegate method
 	// in order to be informed about URLs being touched by the user
-	-(void)textView:(ALTextView *)label didSelectLinkWithURL:(NSURL *)url {
+	-(void)textView:(APLUrlTextView *)label didSelectLinkWithURL:(NSURL *)url {
 	  ...
     }
     		

@@ -4,6 +4,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class APLUrlTextView;
+
 /*
  * Extension of the UITextViewDelegate to enable link handling.
  */
@@ -13,7 +15,7 @@
  * @param textView the instance invoking this method
  * @param url the URL which has been touched by the user
  */
--(void)textView:(UITextView*)textView didSelectLinkWithURL:(NSURL*)url;
+-(void)textView:(APLUrlTextView*)textView didSelectLinkWithURL:(NSURL*)url;
 @end
 
 /*
