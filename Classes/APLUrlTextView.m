@@ -1,5 +1,8 @@
-//  Created by Tino Rachui on 10.09.14.
-//  Copyright (c) 2014 apploft GmbH. All rights reserved.
+//
+//  APLUrlTextView.m
+//
+//  Created by Tino Rachui on 10.09.2015.
+//  Copyright (c) 2015 apploft GmbH. All rights reserved.
 //
 
 #import "APLUrlTextView.h"

@@ -1,5 +1,5 @@
-//  Created by Tino Rachui on 10.09.14.
-//  Copyright (c) 2014 apploft GmbH. All rights reserved.
+//  Created by Tino Rachui on 10.09.2015.
+//  Copyright (c) 2015 apploft GmbH. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

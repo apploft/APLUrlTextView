@@ -5,12 +5,13 @@ A simple UITextView extensions allowing to add URLs and getting informed when th
 ## Installation
 Install via cocoapods by adding this to your Podfile:
 
-	pod "APLUrlTextView"
+	pod 'APLUrlTextView', '0.0.2'
 
 ## Usage
 Import header file:
 
 	#import "APLUrlTextView.h"
+	#import "APLHrefString.h"
 	
 Use APLUrlTextView like this:
 	
@@ -27,4 +28,7 @@ Use APLUrlTextView like this:
 	-(void)textView:(APLUrlTextView *)label didSelectLinkWithURL:(NSURL *)url {
 	  ...
     }
+    
+	Use APLHrefString to parse strings containing 'hrefs' like this "A string with 
+	<href="http://www.apploft.de">a link</href>" and get a corresponding attributed string plus rnages and urls to be used for the APLUrlTextView.
     		
