@@ -72,8 +72,6 @@
         [markupFreeString deleteCharactersInRange:captureGroup3];
         
         correction += captureGroup3.length;
-        
-        ALLogDebug(@"Capture groups (%@) (%@) (%@)\n%@", substringCaptureGroup1, substringCaptureGroup2, substringCaptureGroup3, markupFreeString);
     }];
     
     return markupFreeString;
@@ -162,7 +160,7 @@
         _regEx = [NSRegularExpression regularExpressionWithPattern:kRegExPattern options:NSRegularExpressionCaseInsensitive error:&error];
         
         if (error != nil) {
-            ALLogDebug(@"Error parsing string %@", self.stringWithHref);
+            NSLog(@"Error parsing string %@", self.stringWithHref);
         }
     }
     return _regEx;
