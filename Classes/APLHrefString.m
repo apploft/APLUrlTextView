@@ -98,7 +98,7 @@
 }
 
 -(NSString*)extractLinkTargetFromHref:(NSString*)href {
-    static NSString *kStartPattern = @"<href=\"";
+    static NSString *kStartPattern = @"<a href=\"";
     static NSString *kEndPattern = @"\"";
     
     NSRange rangeStartPattern = [href rangeOfString:kStartPattern];
@@ -153,7 +153,7 @@
      the third capture group
      A capture group is enclosed in '()' in the regex expression.
      */
-    static NSString *kRegExPattern = @"(<href=[^>]*>)([^<]*)(</href>)";
+    static NSString *kRegExPattern = @"(<a href=[^>]*>)([^<]*)(</a>)";
     
     if (_regEx == nil) {
         NSError *error = nil;

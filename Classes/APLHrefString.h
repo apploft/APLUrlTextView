@@ -17,7 +17,7 @@
 
 /*
     A class accepting strings with embedded 'href' links. 
-    E.g. "A text containing a <href=\"http:\\\\www.apploft.de\">Apploft</href>"
+    E.g. "A text containing a <a href=\"http:\\\\www.apploft.de\">Apploft</a>"
     The class parses the string and produces an attributted string with the markup
     being stripped. Furthermore the class provides an array of url range objects.
     They can for instance be used in order to initialize an APLURLTextView instance.

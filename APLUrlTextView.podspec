@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "APLUrlTextView"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A simple extension of UITextView allowing to add links and getting informed when one of them has been touched."
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   
   s.platform     = :ios, "7.0"
   
-  s.source       = { :git => "https://github.com/apploft/APLUrlTextView.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/apploft/APLUrlTextView.git", :tag => "0.0.3" }
 
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
